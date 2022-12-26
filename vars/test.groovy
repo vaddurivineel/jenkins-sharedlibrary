@@ -8,8 +8,8 @@ environment {
 		gitRepo = "${grepo}"
 		gitBranch = "${gbranch}"
 		gitCredId = "${gitcred}"
-    deployment = "${depname}"
-    containerName = "${contname}"
+    		deployment = "${depname}"
+    		containerName = "${contname}"
 	}
 		
     agent none
