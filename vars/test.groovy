@@ -39,7 +39,7 @@ environment {
         stage('DEPLOY IMAGE') {
 		agent{label 'k8snode'}
 		          steps {
-			            sh 'kubectl set image deploy $deployment $containerName="$registry:$dockerTag" --record'
+			           // sh 'kubectl set image deploy $deployment $containerName="$registry:$dockerTag" --record'
 		          }
 	}  
     }
